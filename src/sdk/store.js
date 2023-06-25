@@ -1,5 +1,7 @@
-import axios from "axios";
+import axios from 'https://cdn.skypack.dev/axios'; 
 
-export const store = axios.get('/data/feed.json').then(res => {
-    return res
-}).catch(error => console.log(error))
+export async function request () {
+    await axios.get('data/feed.json').then(res => {
+        console.log(res)
+    }).catch(error => console.log(error))
+}
