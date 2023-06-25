@@ -1,0 +1,24 @@
+{
+    "name": "feed",
+    "type": "module",
+    "content": [
+        {
+            "image": "public/assets/Rectangle 9.png",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+            "title": "Многопрофильная клиника для детей и взрослых"
+        },
+        {
+            "image": "public/assets/doctor-working-table 1.png",
+            "content": "Для мужчин",
+            "title": "CHECK-UP",
+            "list": [
+                "Гормональный скрининг",
+                "Тестостерон",
+                "Свободный тестостерон",
+                "Глобулин, связыввающие половые гармоны"
+            ],
+            "cost": "2800",
+            "sale": "3500"
+        }
+    ]
+}
