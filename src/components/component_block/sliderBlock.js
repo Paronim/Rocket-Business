@@ -16,6 +16,7 @@ export function createElementSlider (element, data) {
                 const content = document.createElement('p')
                 const list = document.createElement('ul')
                 const cost = document.createElement('div')
+                const buttonWrapper = document.createElement('div')
 
                 sliderCart.className = 'slider-cart'
                 image.className = 'img-slider'
@@ -23,6 +24,7 @@ export function createElementSlider (element, data) {
                 content.className = 'content-slider'
                 list.className = 'list-slider'
                 cost.className = 'cost-sale-slider'
+                buttonWrapper.className = 'button-wrapper'
 
                 slider.append(sliderCart)
 
@@ -40,19 +42,19 @@ export function createElementSlider (element, data) {
                 el.list.forEach(el => {
                     const listElement = document.createElement('li')
                     listElement.className = 'list-element-slider'
-                    listElement.textContent = el
+                    listElement.innerHTML = `<div class="list-element"><div class="list-bullet"></div>${el}</div>`
                     list.append(listElement)
                 })
 
                 sliderCart.append(cost)
                 
                 cost.innerHTML = `
-                <p class="cost-slider">Всего ${el.cost}</p>
-                <p class="sale-slider">${el.sale}</p>
+                <p class="cost-slider">Всего ${el.cost}₽</p>
+                <p class="sale-slider">${el.sale}₽</p>
                 `
-
-                createElementButton('Записаться', 1, sliderCart)
-                createElementButton('Подробнее', 2, sliderCart)
+                sliderCart.append(buttonWrapper)
+                createElementButton('Записаться', 1, buttonWrapper)
+                createElementButton('Подробнее', 2, buttonWrapper)
 
                 if(el.id != 1) 
                     sliderCart.style = 'display: none'
