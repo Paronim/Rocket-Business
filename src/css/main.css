@@ -183,42 +183,44 @@ header {
   font-family: PT Sans Caption;
 }
 
+.button {
+  height: 43px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-family: PT Sans Caption;
+  cursor: pointer;
+}
 .button-1 {
   width: 137px;
-  height: 43px;
   flex-shrink: 0;
   border: none;
-  border-radius: 50px;
   background: #0DBC91;
   color: #FFF;
   text-align: center;
-  font-size: 14px;
-  font-family: PT Sans Caption;
   line-height: 21px;
   margin-right: 6px;
 }
+.button-1:hover {
+  background: #00D29F;
+}
 .button-2 {
   width: 137px;
-  height: 43px;
   flex-shrink: 0;
   background-color: rgba(255, 255, 255, 0);
-  border-radius: 50px;
   border: 1px solid #0DBC91;
   color: #0DBC91;
   text-align: center;
-  font-size: 14px;
-  font-family: PT Sans Caption;
   line-height: 21px;
+}
+.button-2:hover {
+  background: #0DBC91;
+  color: #FFF;
 }
 .button-3 {
   width: 196px;
-  height: 43px;
   flex-shrink: 0;
-  border-radius: 50px;
   background: #F6F6F6;
   color: #1FA181;
-  font-size: 14px;
-  font-family: PT Sans Caption;
   font-weight: 700;
   line-height: 21px;
 }/*# sourceMappingURL=main.css.map */
