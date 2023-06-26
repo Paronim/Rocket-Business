@@ -1,0 +1,46 @@
+.button{
+    &-1{
+        width: 137px;
+        height: 43px;
+        flex-shrink: 0;
+        border: none;
+        border-radius: 50px;
+        background: #0DBC91;
+
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-family: PT Sans Caption;
+        line-height: 21px;
+
+        margin-right: 6px;
+    }
+    &-2{
+        width: 137px;
+        height: 43px;
+        flex-shrink: 0;
+        background-color: #ffffff00;
+        border-radius: 50px;
+        border: 1px solid #0DBC91;
+
+        color: #0DBC91;
+        text-align: center;
+        font-size: 14px;
+        font-family: PT Sans Caption;
+        line-height: 21px;
+    }
+    &-3{
+        width: 196px;
+        height: 43px;
+        flex-shrink: 0;
+
+        border-radius: 50px;
+        background: #F6F6F6;
+
+        color: #1FA181;
+        font-size: 14px;
+        font-family: PT Sans Caption;
+        font-weight: 700;
+        line-height: 21px;
+    }
+}

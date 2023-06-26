@@ -63,6 +63,7 @@ header {
   margin: 0 17px 0 18px;
   background-color: #E2F0EF;
   border-radius: 5px 5px 0px 0px;
+  padding-bottom: 42px;
 }
 
 .img-slider {
@@ -131,4 +132,44 @@ header {
 
 .button-wrapper {
   margin: 27px 0 0 23px;
+}
+
+.button-1 {
+  width: 137px;
+  height: 43px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 50px;
+  background: #0DBC91;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-family: PT Sans Caption;
+  line-height: 21px;
+  margin-right: 6px;
+}
+.button-2 {
+  width: 137px;
+  height: 43px;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50px;
+  border: 1px solid #0DBC91;
+  color: #0DBC91;
+  text-align: center;
+  font-size: 14px;
+  font-family: PT Sans Caption;
+  line-height: 21px;
+}
+.button-3 {
+  width: 196px;
+  height: 43px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #F6F6F6;
+  color: #1FA181;
+  font-size: 14px;
+  font-family: PT Sans Caption;
+  font-weight: 700;
+  line-height: 21px;
 }/*# sourceMappingURL=main.css.map */
