@@ -1,4 +1,4 @@
-
+import { createElementButton } from "./buttonBlock.js";
 
 export function createElementSlider (element, data) {
 
@@ -50,6 +50,9 @@ export function createElementSlider (element, data) {
                 <p class="cost-slider">Всего ${el.cost}</p>
                 <p class="sale-slider">${el.sale}</p>
                 `
+
+                createElementButton('Записаться', 1, sliderCart)
+                createElementButton('Подробнее', 2, sliderCart)
 
                 if(el.id != 1) 
                     sliderCart.style = 'display: none'

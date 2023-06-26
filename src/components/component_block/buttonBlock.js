@@ -1,5 +1,5 @@
 
-export function createElementButton (content, type) {
+export function createElementButton (content, type, element) {
     const button = document.createElement('button')
 
     switch(type){
@@ -14,4 +14,5 @@ export function createElementButton (content, type) {
         
     button.textContent = content
 
+    element.append(button)
 }
