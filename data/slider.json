@@ -1,0 +1,19 @@
+{
+    "name": "feed",
+    "type": "module",
+    "content": [
+        {
+            "image": "public/assets/doctor-working-table 1.png",
+            "content": "Для мужчин",
+            "title": "CHECK-UP",
+            "list": [
+                "Гормональный скрининг",
+                "Тестостерон",
+                "Свободный тестостерон",
+                "Глобулин, связыввающие половые гармоны"
+            ],
+            "cost": "2800",
+            "sale": "3500"
+        }
+    ]
+}

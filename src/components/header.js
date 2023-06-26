@@ -8,7 +8,7 @@ export function createHeader () {
     logo.className = 'header-logo'
     logo.src = 'public/assets/icons/LOGO.svg'
 
-    document.body.prepend(header)
+    document.body.before(header)
     header.prepend(logo)
 
     header.insertAdjacentHTML('beforeend', 

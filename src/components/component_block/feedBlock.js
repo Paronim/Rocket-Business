@@ -1,4 +1,5 @@
-export function createElementFeed () {
+
+export function createElementFeed (element, data) {
     const feed = document.createElement('div')
     const feedCart = document.createElement('div')
     const image = document.createElement('img')
@@ -11,23 +12,24 @@ export function createElementFeed () {
     title.className = 'title-feed'
     content.className = 'content-feed'
 
-    feed.prepend(main)
+    element.prepend(feed)
 
-    try{
-    content.content.forEach(el => {
-        feedCart.append(feed)
-
-        image.src = el.image
-        feedCart.append(image)
+        try{
+            data[0].data.content.forEach(el => {
+                feed.append(feedCart)
         
-        title.innerHTML = el.title
-        feedCart.append(title)
+                image.src = el.image
+                feedCart.append(image)
+                
+                title.textContent = el.title
+                feedCart.append(title)
+                
+                content.textContent = el.content
+                feedCart.append(content)
         
-        content.innerHTML = el.content
-        feedCart.append(content)
-
-    });
-    } catch {
-        console.log('запрос на ленту пуст')
-    }
+            });
+        } catch {
+            console.log('запрос на ленту пуст')
+        }
 }
+ 
