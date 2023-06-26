@@ -3,8 +3,10 @@ import { createElementButton } from "./buttonBlock.js";
 export function createElementSlider (element, data) {
 
     const slider = document.createElement('div')
+    const sliderMenu = document.createElement('div')
 
     slider.className = 'slider'
+    sliderMenu.className = 'slider-menu'
 
     element.append(slider)
 
@@ -19,6 +21,7 @@ export function createElementSlider (element, data) {
                 const buttonWrapper = document.createElement('div')
 
                 sliderCart.className = 'slider-cart'
+                sliderCart.id = el.id
                 image.className = 'img-slider'
                 title.className = 'title-slider'
                 content.className = 'content-slider'
@@ -64,4 +67,24 @@ export function createElementSlider (element, data) {
             console.log('запрос на ленту пуст')
         }
 
+        sliderMenu.innerHTML = `
+        <div class="arrow-left"></div>
+        <div class="counter">
+            <p class="counter-first">1</p>
+            <p class="counter-max">/${data[1].data.content.length}</p>
+        </div>
+        <div class="arrow-right"></div>
+        `
+
+        slider.append(sliderMenu)
+
+}
+
+function arrowRight () {
+    const slides = document.getElementsByClassName('slider-cart')
+    console.log(slides)
+}
+
+function arrowLeft () {
+    
 }

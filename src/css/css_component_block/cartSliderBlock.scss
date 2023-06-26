@@ -59,7 +59,7 @@
 
 .cost-sale-slider{
     display: flex;
-    align-items: baseline;
+    align-items: center;
 
     margin: 13px 0 0 23px;
 }
@@ -81,4 +81,53 @@
 
 .button-wrapper{
     margin: 27px 0 0 23px;
+}
+
+.slider-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 22px 0 35px 0;
+}
+
+.arrow-left{
+    background-image: url('/public/assets/icons/left-arrow.svg');
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+}
+
+.arrow-left:active{
+    background-image: url('/public/assets/icons/left-arrow-hover.svg');
+    transform: rotate(180deg);
+}
+
+.arrow-right{
+    background-image: url('/public/assets/icons/left-arrow.svg');
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.arrow-right:active{
+    background-image: url('/public/assets/icons/left-arrow-hover.svg');
+    transform: rotate(360deg);
+}
+
+.counter{
+    display: flex;
+    margin: 0 36px 0 36px;
+}
+
+.counter-first{
+    color: #364844;
+    font-size: 18px;
+    font-family: PT Sans Caption;
+}
+
+.counter-max{
+    color: #C0C0C0;
+    font-size: 18px;
+    font-family: PT Sans Caption;
 }
