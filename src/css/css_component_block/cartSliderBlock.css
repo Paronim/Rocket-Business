@@ -17,7 +17,7 @@
   margin: 22px 0 0 23px;
   color: var(--unnamed, #364844);
   font-size: 26px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -26,7 +26,7 @@
   margin: 5px 0 0 23px;
   color: var(--unnamed, #364844);
   font-size: 14px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -41,7 +41,7 @@
   margin-top: 10px;
   color: #364844;
   font-size: 14px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   line-height: 145%;
 }
 
@@ -63,13 +63,13 @@
   margin-right: 10px;
   color: #364844;
   font-size: 18px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
 }
 
 .sale-slider {
   color: #868686;
   font-size: 14px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   text-decoration: line-through;
 }
 
@@ -117,11 +117,11 @@
 .counter-first {
   color: #364844;
   font-size: 18px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
 }
 
 .counter-max {
   color: #C0C0C0;
   font-size: 18px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
 }/*# sourceMappingURL=cartSliderBlock.css.map */

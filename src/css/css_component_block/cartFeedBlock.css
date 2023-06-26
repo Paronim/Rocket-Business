@@ -11,18 +11,19 @@
   margin-top: 35px;
   color: #364844;
   font-size: 26px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  max-width: 267px;
 }
 
 .content-feed {
   margin-top: 9px;
   color: #364844;
   font-size: 14px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   line-height: 150%;
 }
 
 .text-cart-block {
-  padding-left: 17px;
+  padding: 0 17px 0 17px;
 }/*# sourceMappingURL=cartFeedBlock.css.map */

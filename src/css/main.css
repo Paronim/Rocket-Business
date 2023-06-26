@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@300;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +19,7 @@ header {
   color: #364844;
   text-align: right;
   font-size: 16px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -26,7 +27,7 @@ header {
   color: #364844;
   text-align: right;
   font-size: 13px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer {
@@ -61,7 +62,7 @@ header {
   text-decoration: none;
   color: #FFF;
   font-size: 14px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
 }
 
 .element-list-footer {
@@ -93,20 +94,21 @@ header {
   margin-top: 35px;
   color: #364844;
   font-size: 26px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  max-width: 267px;
 }
 
 .content-feed {
   margin-top: 9px;
   color: #364844;
   font-size: 14px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   line-height: 150%;
 }
 
 .text-cart-block {
-  padding-left: 17px;
+  padding: 0 17px 0 17px;
 }
 
 .slider {
@@ -128,7 +130,7 @@ header {
   margin: 22px 0 0 23px;
   color: var(--unnamed, #364844);
   font-size: 26px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -137,7 +139,7 @@ header {
   margin: 5px 0 0 23px;
   color: var(--unnamed, #364844);
   font-size: 14px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -152,7 +154,7 @@ header {
   margin-top: 10px;
   color: #364844;
   font-size: 14px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   line-height: 145%;
 }
 
@@ -174,13 +176,13 @@ header {
   margin-right: 10px;
   color: #364844;
   font-size: 18px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
 }
 
 .sale-slider {
   color: #868686;
   font-size: 14px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   text-decoration: line-through;
 }
 
@@ -228,20 +230,20 @@ header {
 .counter-first {
   color: #364844;
   font-size: 18px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
 }
 
 .counter-max {
   color: #C0C0C0;
   font-size: 18px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
 }
 
 .button {
   height: 43px;
   border-radius: 50px;
   font-size: 14px;
-  font-family: PT Sans Caption;
+  font-family: "Montserrat", sans-serif;
   cursor: pointer;
 }
 .button-1 {
