@@ -1,5 +1,44 @@
 import { createElementButton } from "./buttonBlock.js";
 
+let counterSlides = 1
+
+function arrowRightEvent () {
+    
+    const slides = document.getElementsByClassName('slider-cart')
+
+    
+    if(counterSlides < slides.length){
+    for(let slide of slides){
+        if(Number(slide.id) === counterSlides)
+            slide.style.display = 'none'
+        
+        if(Number(slide.id) === counterSlides + 1)
+            slide.style = 'none'
+    }
+
+        counterSlides++
+        document.querySelector('.counter-first').textContent = counterSlides
+    }
+        
+}
+
+function arrowLeftEvent () {
+    const slides = document.getElementsByClassName('slider-cart')
+
+    if(counterSlides > 1){
+    for(let slide of slides){
+        if(Number(slide.id) === counterSlides)
+            slide.style.display = 'none'
+        
+        if(Number(slide.id) === counterSlides - 1)
+            slide.style = 'none'
+    }
+        counterSlides--
+        document.querySelector('.counter-first').textContent = counterSlides
+    }
+        
+}
+
 export function createElementSlider (element, data) {
 
     const slider = document.createElement('div')
@@ -60,7 +99,7 @@ export function createElementSlider (element, data) {
                 createElementButton('Подробнее', 2, buttonWrapper)
 
                 if(el.id != 1) 
-                    sliderCart.style = 'display: none'
+                    sliderCart.style.display = 'none'
 
             });
         } catch {
@@ -78,13 +117,15 @@ export function createElementSlider (element, data) {
 
         slider.append(sliderMenu)
 
+        const arrowRight = document.querySelector('.arrow-right')
+        const arrowLeft = document.querySelector('.arrow-left')
+
+        arrowRight.addEventListener('click', () => {
+            arrowRightEvent()
+        })
+
+        arrowLeft.addEventListener('click', () => {
+            arrowLeftEvent()
+        })
 }
 
-function arrowRight () {
-    const slides = document.getElementsByClassName('slider-cart')
-    console.log(slides)
-}
-
-function arrowLeft () {
-    
-}
