@@ -1,0 +1,41 @@
+.footer{
+    background: #08664F;
+    padding: 42px 18px 41px 17px;
+}
+
+.header-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 31px 0;
+}
+
+.logo-footer{
+    width: 91px;
+}
+
+.image-footer-first{
+    width: 24px;
+}
+
+.image-footer{
+    margin-left: 20px;
+    width: 24px;
+}
+
+.list-footer{ 
+    list-style-type: none;
+}
+
+.element-list-footer-a{
+    text-decoration: none;
+
+    color: #FFF;
+    font-size: 14px;
+    font-family: PT Sans Caption;
+
+}
+
+.element-list-footer{
+
+    margin-top: 15px;
+}
