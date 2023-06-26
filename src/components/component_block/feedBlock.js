@@ -12,20 +12,22 @@ export function createElementFeed (element, data) {
     title.className = 'title-feed'
     content.className = 'content-feed'
 
+    feedCart.innerHTML = '<div class="text-cart-block"></div>'
+
     element.prepend(feed)
 
         try{
             data[0].data.content.forEach(el => {
                 feed.append(feedCart)
-        
+
                 image.src = el.image
-                feedCart.append(image)
+                feedCart.prepend(image)
                 
                 title.textContent = el.title
-                feedCart.append(title)
+                document.querySelector('.text-cart-block').append(title)
                 
                 content.textContent = el.content
-                feedCart.append(content)
+                document.querySelector('.text-cart-block').append(content)
         
             });
         } catch {

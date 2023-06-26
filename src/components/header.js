@@ -6,7 +6,7 @@ export function createHeader () {
     const logo = document.createElement("img")
 
     logo.className = 'header-logo'
-    logo.src = 'public/assets/icons/LOGO.svg'
+    logo.src = 'public/assets/icons/lOGO.svg'
 
     document.body.before(header)
     header.prepend(logo)
