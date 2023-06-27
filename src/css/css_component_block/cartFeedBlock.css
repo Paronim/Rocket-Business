@@ -11,7 +11,7 @@
   margin-top: 35px;
   color: #364844;
   font-size: 26px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   max-width: 267px;
 }
@@ -20,7 +20,7 @@
   margin-top: 9px;
   color: #364844;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   line-height: 150%;
 }
 
@@ -29,6 +29,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .feed-cart {
+    margin-bottom: 101px;
+  }
   .img-feed {
     order: 3;
     width: 50%;

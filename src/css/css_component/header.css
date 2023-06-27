@@ -22,7 +22,7 @@ header {
   color: #364844;
   text-align: right;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   display: flex;
   justify-content: flex-start;
@@ -32,7 +32,7 @@ header {
   color: #364844;
   text-align: right;
   font-size: 13px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   display: flex;
   justify-content: flex-start;
 }
@@ -61,7 +61,7 @@ header {
 .list-header {
   display: flex;
   justify-content: flex-start;
-  width: 1140px;
+  max-width: 1140px;
   list-style-type: none;
   margin: 0 auto;
 }
@@ -70,7 +70,7 @@ header {
   text-decoration: none;
   color: #FFF;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
 }
 
 .element-list-header {
@@ -115,7 +115,7 @@ header {
     margin-left: 23px;
     color: var(--2, #868686);
     font-size: 14px;
-    font-family: "Montserrat", sans-serif;
+    font-family: sans-serif;
     line-height: 21px;
   }
   .header-information {

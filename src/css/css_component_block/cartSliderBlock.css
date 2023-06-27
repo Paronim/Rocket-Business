@@ -11,13 +11,14 @@
 
 .img-slider {
   width: 100%;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .title-slider {
   margin: 22px 0 0 23px;
   color: var(--unnamed, #364844);
   font-size: 26px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -26,7 +27,7 @@
   margin: 5px 0 0 23px;
   color: var(--unnamed, #364844);
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
 }
 
@@ -41,7 +42,7 @@
   margin-top: 10px;
   color: #364844;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   line-height: 145%;
 }
 
@@ -63,18 +64,20 @@
   margin-right: 10px;
   color: #364844;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
 }
 
 .sale-slider {
   color: #868686;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   text-decoration: line-through;
 }
 
 .button-wrapper {
   margin: 27px 0 0 23px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .slider-menu {
@@ -117,11 +120,83 @@
 .counter-first {
   color: #364844;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
 }
 
 .counter-max {
   color: #C0C0C0;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
+}
+
+.gradient {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .wrapper-slider-information {
+    order: 1;
+    width: 485px;
+    margin-left: 63px;
+    position: relative;
+    z-index: 8;
+    background-color: #E2F0EF;
+    grid-column-start: 1;
+  }
+  .img-slider {
+    order: 2;
+  }
+  .slider-cart {
+    padding: 0px;
+    height: 440px;
+    margin: 0;
+    border-radius: 0px;
+    display: grid;
+    grid-template-columns: 485px 62px 555px;
+  }
+  .title-slider {
+    font-size: 38px;
+    font-weight: 700;
+    margin: 53px 0 0 0;
+  }
+  .content-slider {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 2px 0 0 0;
+  }
+  .list-slider {
+    margin: 16px 0 0 0;
+  }
+  .list-element {
+    font-size: 16px;
+  }
+  .cost-sale-slider {
+    margin: 33px 0 0 0;
+  }
+  .cost-slider {
+    font-size: 20px;
+  }
+  .sale-slider {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .button-wrapper {
+    margin: 26px 0 0 0;
+  }
+  .img-slider {
+    width: 692px;
+    border-radius: 0px;
+    z-index: 1;
+  }
+  .gradient {
+    order: 2;
+    display: block;
+    width: 90px;
+    background: linear-gradient(to right top, #E2F0EF 50%, rgba(255, 0, 0, 0) 0%);
+    z-index: 10;
+  }
 }/*# sourceMappingURL=cartSliderBlock.css.map */

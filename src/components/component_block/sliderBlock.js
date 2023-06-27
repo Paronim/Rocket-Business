@@ -58,6 +58,7 @@ export function createElementSlider (element, data) {
                 const list = document.createElement('ul')
                 const cost = document.createElement('div')
                 const buttonWrapper = document.createElement('div')
+                const wrapper = document.createElement('div')
 
                 sliderCart.className = 'slider-cart'
                 sliderCart.id = el.id
@@ -67,19 +68,23 @@ export function createElementSlider (element, data) {
                 list.className = 'list-slider'
                 cost.className = 'cost-sale-slider'
                 buttonWrapper.className = 'button-wrapper'
+                wrapper.className = 'wrapper-slider-information'
+
+                sliderCart.innerHTML = '<div class="gradient"></div>'
 
                 slider.append(sliderCart)
+                sliderCart.prepend(wrapper)
 
                 image.src = el.image
                 sliderCart.prepend(image)
                 
                 title.textContent = el.title
-                sliderCart.append(title)
+                wrapper.append(title)
                 
                 content.textContent = el.content
-                sliderCart.append(content)
+                wrapper.append(content)
 
-                sliderCart.append(list)
+                wrapper.append(list)
 
                 el.list.forEach(el => {
                     const listElement = document.createElement('li')
@@ -88,13 +93,13 @@ export function createElementSlider (element, data) {
                     list.append(listElement)
                 })
 
-                sliderCart.append(cost)
+                wrapper.append(cost)
                 
                 cost.innerHTML = `
                 <p class="cost-slider">Всего ${el.cost}₽</p>
                 <p class="sale-slider">${el.sale}₽</p>
                 `
-                sliderCart.append(buttonWrapper)
+                wrapper.append(buttonWrapper)
                 createElementButton('Записаться', 1, buttonWrapper)
                 createElementButton('Подробнее', 2, buttonWrapper)
 
