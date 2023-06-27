@@ -28,7 +28,7 @@ header {
   color: #364844;
   text-align: right;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   display: flex;
   justify-content: flex-start;
@@ -38,7 +38,7 @@ header {
   color: #364844;
   text-align: right;
   font-size: 13px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   display: flex;
   justify-content: flex-start;
 }
@@ -76,14 +76,14 @@ header {
   text-decoration: none;
   color: #FFF;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
 }
 
 .element-list-header {
   margin: 10px 30px 0 0;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .header-logo {
     width: 91px;
   }
@@ -121,7 +121,7 @@ header {
     margin-left: 23px;
     color: var(--2, #868686);
     font-size: 14px;
-    font-family: "Montserrat", sans-serif;
+    font-family: sans-serif;
     line-height: 21px;
   }
   .header-information {
@@ -178,7 +178,7 @@ header {
   text-decoration: none;
   color: #FFF;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
 }
 
 .element-list-footer {
@@ -226,7 +226,7 @@ header {
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .label-menu {
     display: none;
   }
@@ -244,7 +244,7 @@ header {
   margin-top: 35px;
   color: #364844;
   font-size: 26px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   max-width: 267px;
 }
@@ -253,7 +253,7 @@ header {
   margin-top: 9px;
   color: #364844;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   line-height: 150%;
 }
 
@@ -261,7 +261,7 @@ header {
   padding: 0 17px 0 17px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .feed-cart {
     margin-bottom: 101px;
   }
@@ -320,7 +320,7 @@ header {
   margin: 22px 0 0 23px;
   color: var(--unnamed, #364844);
   font-size: 26px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -329,7 +329,7 @@ header {
   margin: 5px 0 0 23px;
   color: var(--unnamed, #364844);
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
 }
 
@@ -344,7 +344,7 @@ header {
   margin-top: 10px;
   color: #364844;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   line-height: 145%;
 }
 
@@ -366,13 +366,13 @@ header {
   margin-right: 10px;
   color: #364844;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
 }
 
 .sale-slider {
   color: #868686;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   text-decoration: line-through;
 }
 
@@ -422,27 +422,27 @@ header {
 .counter-first {
   color: #364844;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
 }
 
 .counter-max {
   color: #C0C0C0;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
 }
 
 .gradient {
   display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .slider {
     max-width: 1140px;
     margin: 0 auto;
   }
   .wrapper-slider-information {
     order: 1;
-    width: 485px;
+    width: 448px;
     margin-left: 63px;
     position: relative;
     z-index: 8;
@@ -455,10 +455,11 @@ header {
   .slider-cart {
     padding: 0px;
     height: 440px;
+    width: 1140px;
     margin: 0;
     border-radius: 0px;
     display: grid;
-    grid-template-columns: 485px 62px 555px;
+    grid-template-columns: 448px 62px 90px;
   }
   .title-slider {
     font-size: 38px;
@@ -493,12 +494,14 @@ header {
     width: 692px;
     border-radius: 0px;
     z-index: 1;
+    grid-column-start: 2;
   }
   .gradient {
     order: 2;
     display: block;
     width: 90px;
     background: linear-gradient(to right top, #E2F0EF 50%, rgba(255, 0, 0, 0) 0%);
+    grid-column-start: 3;
     z-index: 10;
   }
 }
@@ -506,7 +509,7 @@ header {
   height: 43px;
   border-radius: 50px;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   cursor: pointer;
 }
 .button-1 {
@@ -545,7 +548,7 @@ header {
   border: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .button {
     width: 196px;
   }
