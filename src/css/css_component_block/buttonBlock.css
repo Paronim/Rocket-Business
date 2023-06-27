@@ -39,4 +39,10 @@
   font-weight: 700;
   line-height: 21px;
   border: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .button {
+    width: 196px;
+  }
 }/*# sourceMappingURL=buttonBlock.css.map */

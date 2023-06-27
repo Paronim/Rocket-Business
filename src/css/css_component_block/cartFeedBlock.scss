@@ -54,15 +54,16 @@
     }
     .feed-cart{
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         padding: 0;
     }
     .text-cart-block{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         flex-grow: 3;
-        padding-left: 200px;
+        max-width: 570px;
+        padding: 0px;
     }
 }

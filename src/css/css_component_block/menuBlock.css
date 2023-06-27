@@ -37,4 +37,10 @@
 
 .element-list-menu {
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .label-menu {
+    display: none;
+  }
 }/*# sourceMappingURL=menuBlock.css.map */
