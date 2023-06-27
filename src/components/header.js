@@ -1,4 +1,4 @@
-import { createMenu } from './component_block/menuBlock.js'
+import { createMenuButton } from './component_block/menuBlock.js'
 
 
 export function createHeader () {
@@ -18,6 +18,6 @@ export function createHeader () {
             '</div>'
             )
 
-    createMenu(header)
+    createMenuButton(header)
 
 }
