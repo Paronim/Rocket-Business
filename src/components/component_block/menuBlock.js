@@ -1,3 +1,4 @@
+import { createElementList } from './listBlock.js'
 
 let stateMenu = true
 
@@ -9,20 +10,12 @@ import {createElementButton} from './buttonBlock.js'
 
 
 function openMenuBody(el) {
-    const menuBody = document.createElement('div')
-    const list = document.createElement('ul')
+    const menuBody = document.createElement('section')
 
     menuBody.className = 'menu-body'
     menuBody.style.position = 'absolute'
-    list.className = 'list-menu'
 
-    list.innerHTML = '<li class="element-list-menu"><a class="element-list-menu-a" href="#">О клинике</a></li>' +
-                    '<li class="element-list-menu"><a class="element-list-menu-a" href="#">Услуги</a></li>' +
-                    '<li class="element-list-menu"><a class="element-list-menu-a" href="#">Специалисты</a></li>' + 
-                    '<li class="element-list-menu"><a class="element-list-menu-a" href="#">Цены</a></li>' +
-                    '<li class="element-list-menu"><a class="element-list-menu-a" href="#">Контакты</a></li>'
-
-    menuBody.append(list)
+    createElementList(menuBody, 'menu')
 
     createElementButton('Записаться на прием', 3, menuBody)
 

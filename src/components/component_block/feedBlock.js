@@ -1,6 +1,6 @@
 
 export function createElementFeed (element, data) {
-    const feed = document.createElement('div')
+    const feed = document.createElement('section')
 
     feed.className = 'feed'
 

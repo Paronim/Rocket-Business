@@ -133,14 +133,14 @@
   display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .slider {
     max-width: 1140px;
     margin: 0 auto;
   }
   .wrapper-slider-information {
     order: 1;
-    width: 485px;
+    width: 448px;
     margin-left: 63px;
     position: relative;
     z-index: 8;
@@ -153,10 +153,11 @@
   .slider-cart {
     padding: 0px;
     height: 440px;
+    width: 1140px;
     margin: 0;
     border-radius: 0px;
     display: grid;
-    grid-template-columns: 485px 62px 555px;
+    grid-template-columns: 448px 62px 90px;
   }
   .title-slider {
     font-size: 38px;
@@ -191,12 +192,31 @@
     width: 692px;
     border-radius: 0px;
     z-index: 1;
+    grid-column-start: 2;
   }
   .gradient {
     order: 2;
     display: block;
     width: 90px;
     background: linear-gradient(to right top, #E2F0EF 50%, rgba(255, 0, 0, 0) 0%);
+    grid-column-start: 3;
     z-index: 10;
+  }
+  .slider-menu {
+    margin: 34px 0 92px 0;
+  }
+  .arrow-left {
+    height: 34px;
+    width: 34px;
+  }
+  .arrow-right {
+    height: 34px;
+    width: 34px;
+  }
+  .counter-first {
+    font-size: 18px;
+  }
+  .counter-max {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=cartSliderBlock.css.map */
