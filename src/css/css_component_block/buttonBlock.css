@@ -1,0 +1,48 @@
+.button {
+  height: 43px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.button-1 {
+  width: 137px;
+  flex-shrink: 0;
+  border: none;
+  background: #0DBC91;
+  color: #FFF;
+  text-align: center;
+  line-height: 21px;
+  margin-right: 6px;
+}
+.button-1:hover {
+  background: #00D29F;
+}
+.button-2 {
+  width: 137px;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #0DBC91;
+  color: #0DBC91;
+  text-align: center;
+  line-height: 21px;
+}
+.button-2:hover {
+  background: #0DBC91;
+  color: #FFF;
+}
+.button-3 {
+  width: 196px;
+  flex-shrink: 0;
+  background: #F6F6F6;
+  color: #1FA181;
+  font-weight: 700;
+  line-height: 21px;
+  border: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .button {
+    width: 196px;
+  }
+}/*# sourceMappingURL=buttonBlock.css.map */

@@ -1,4 +1,16 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@300;500&display=swap');
+
+*{
     margin: 0;
     padding: 0;
 }
+
+
+@import './css_component/header.scss';
+@import './css_component/footer.scss';
+@import './css_component_block/menuBlock.scss';
+@import './css_component_block/cartFeedBlock.scss';
+@import './css_component_block/cartSliderBlock.scss';
+@import './css_component_block/buttonBlock.scss';
+
+
