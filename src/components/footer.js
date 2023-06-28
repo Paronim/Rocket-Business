@@ -13,11 +13,11 @@ export function createFooter() {
     wrapperImg.className = 'wrapper-logo'
     socialNet.className = 'social-network'
 
-    logo.src = '/public/assets/icons/logo-footer.svg'
+    logo.src = '/public/assets/logo-footer.svg'
 
-    socialNet.innerHTML = '<a href="#"><img class="image-footer" src="/public/assets/icons/instagram.svg"/></a>' +
-                        '<a class="image-footer-a" href="#"><img class="image-footer" src="/public/assets/icons/watsapp.svg"/></a>' +
-                        '<a class="image-footer-a" href="#"><img class="image-footer" src="/public/assets/icons/telegram.png"/></a>'
+    socialNet.innerHTML = '<a href="#"><img class="image-footer" src="/public/assets/instagram.svg"/></a>' +
+                        '<a class="image-footer-a" href="#"><img class="image-footer" src="/public/assets/whatsapp.svg"/></a>' +
+                        '<a class="image-footer-a" href="#"><img class="image-footer" src="/public/assets/telegram.png"/></a>'
 
 
     footer.append(wrapperImg)

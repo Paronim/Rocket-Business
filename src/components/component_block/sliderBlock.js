@@ -134,3 +134,5 @@ export function createElementSlider (element, data) {
         })
 }
 
+export default createElementSlider
+

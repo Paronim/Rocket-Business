@@ -9,14 +9,25 @@ export async function createMain() {
     main.id = 'main'
     document.body.prepend(main)
 
-    await requestFeed().then(() => {
+    try{
+        await requestFeed().then(() => {
 
-        createElementFeed(main, storeGet())
-    })
+                createElementFeed(main, storeGet())
+            })
+    } catch(error) {
+        console.error(error)
+    }
 
-    await requestSlider().then(() => {
+    try{
+        await requestSlider().then(() => {
 
-        createElementSlider(main, storeGet())
-    })
+                createElementSlider(main, storeGet())
+            })
+    } catch(error) {
+        console.error(error)
+    }
+    
+
+    
     
 }
