@@ -14,7 +14,7 @@ module.exports = {
         hot: true,
         port: 8080,
         static: {
-            directory: path.join(__dirname, '.dist/'),
+            directory: path.join(__dirname, '.build/'),
             watch: true
           }
     },
@@ -23,7 +23,7 @@ module.exports = {
         main: path.resolve(__dirname, './src/index.js'),
     },
     output: {
-        path: path.resolve(__dirname, './dist'),
+        path: path.resolve(__dirname, './build'),
         filename: 'index.bundle.js',
     },
 
@@ -33,7 +33,7 @@ module.exports = {
             title: 'webpack Boilerplate',
             template: path.resolve(__dirname, 'index.html'),
             filename: 'index.html',
-            path: path.resolve(__dirname, './dist'),
+            path: path.resolve(__dirname, './build'),
         }),
         new CleanWebpackPlugin(),
         new webpack.HotModuleReplacementPlugin(),

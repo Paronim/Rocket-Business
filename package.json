@@ -10,6 +10,7 @@
     "css-loader": "^6.8.1",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.3",
     "node-sass": "^9.0.0",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
@@ -30,8 +31,10 @@
     "image-webpack-loader": "^8.1.0",
     "json": "^11.0.0"
   },
+  "homepage": "http://Paronim.github.io/Rocket-Business",
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "deploy": "gh-pages build"
   }
 }
