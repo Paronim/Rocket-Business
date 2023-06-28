@@ -1,4 +1,4 @@
-import axios from 'https://cdn.skypack.dev/axios'; 
+import axios from 'axios'; 
 import {storeSet} from '../store/store.js'
 
 export async function requestFeed () {
