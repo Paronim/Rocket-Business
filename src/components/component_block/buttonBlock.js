@@ -16,3 +16,5 @@ export function createElementButton (content, type, element, className='') {
 
     element.append(button)
 }
+
+export default createElementButton
