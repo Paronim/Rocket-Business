@@ -6,13 +6,13 @@ export function createFooter() {
     const logo = document.createElement('img')
     const list = document.createElement('ul')
     const socialNet = document.createElement('div')
-    const headerFooter = document.createElement('div')
+    const wrapperImg = document.createElement('div')
 
     footer.className = 'footer'
     logo.className = 'logo-footer'
+    wrapperImg.className = 'wrapper-logo'
     list.className = 'list-footer'
     socialNet.className = 'social-network'
-    headerFooter.className = 'header-footer'
 
     logo.src = '/public/assets/icons/logo-footer.svg'
 
@@ -22,14 +22,14 @@ export function createFooter() {
                     '<li class="element-list-footer"><a class="element-list-footer-a" href="#">Цены</a></li>' +
                     '<li class="element-list-footer"><a class="element-list-footer-a" href="#">Контакты</a></li>'
 
-    socialNet.innerHTML = '<a class="image-footer-first" href="#"><img src="/public/assets/icons/instagram.svg"/></a>' +
-                        '<a class="image-footer" href="#"><img src="/public/assets/icons/watsapp.svg"/></a>' +
-                        '<a class="image-footer" href="#"><img src="/public/assets/icons/telegram.png"/></a>'
+    socialNet.innerHTML = '<a href="#"><img class="image-footer" src="/public/assets/icons/instagram.svg"/></a>' +
+                        '<a class="image-footer-a" href="#"><img class="image-footer" src="/public/assets/icons/watsapp.svg"/></a>' +
+                        '<a class="image-footer-a" href="#"><img class="image-footer" src="/public/assets/icons/telegram.png"/></a>'
 
-    footer.append(headerFooter)    
 
-    headerFooter.append(logo)
-    headerFooter.append(socialNet)
+    footer.append(wrapperImg)
+    wrapperImg.append(logo)
+    footer.append(socialNet)
 
     footer.append(list)
 }

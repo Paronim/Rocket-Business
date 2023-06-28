@@ -9,7 +9,7 @@ import {createElementButton} from './buttonBlock.js'
 
 
 function openMenuBody(el) {
-    const menuBody = document.createElement('div')
+    const menuBody = document.createElement('section')
     const list = document.createElement('ul')
 
     menuBody.className = 'menu-body'

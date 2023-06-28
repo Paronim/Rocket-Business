@@ -149,29 +149,39 @@ header {
 .footer {
   background: #08664F;
   padding: 42px 18px 41px 17px;
-}
-
-.header-footer {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 0 31px 0;
+  display: grid;
+  grid-template-columns: 91px 1fr 112px;
+  grid-template-rows: 26.6px 16px 150px;
+  max-width: 100%;
 }
 
 .logo-footer {
   width: 91px;
 }
 
-.image-footer-first {
-  width: 24px;
+.wrapper-logo {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.social-network {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .image-footer {
-  margin-left: 20px;
   width: 24px;
+}
+
+.image-footer-a {
+  margin-left: 20px;
 }
 
 .list-footer {
   list-style-type: none;
+  grid-row-start: 3;
 }
 
 .element-list-footer-a {
@@ -185,6 +195,49 @@ header {
   margin-top: 15px;
 }
 
+@media screen and (min-width: 1440px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 329px 676px 135px 1fr;
+    grid-template-rows: 35px 0 0;
+    margin: 0 auto;
+    padding: 59px 0 58px 0;
+  }
+  .wrapper-logo {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    align-items: center;
+  }
+  .list-footer {
+    grid-column-start: 3;
+    grid-row-start: 1;
+  }
+  .social-network {
+    grid-column-start: 4;
+    grid-row-start: 1;
+  }
+  .list-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+  }
+  .element-list-footer {
+    margin-right: 30px;
+    margin-top: 0;
+  }
+  .element-list-footer-a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .image-footer {
+    width: 35px;
+  }
+  .image-footer-a {
+    margin-left: 15px;
+  }
+}
 .label-menu {
   display: flex;
   flex-direction: column;
@@ -503,6 +556,23 @@ header {
     background: linear-gradient(to right top, #E2F0EF 50%, rgba(255, 0, 0, 0) 0%);
     grid-column-start: 3;
     z-index: 10;
+  }
+  .slider-menu {
+    margin: 34px 0 92px 0;
+  }
+  .arrow-left {
+    height: 34px;
+    width: 34px;
+  }
+  .arrow-right {
+    height: 34px;
+    width: 34px;
+  }
+  .counter-first {
+    font-size: 18px;
+  }
+  .counter-max {
+    font-size: 18px;
   }
 }
 .button {

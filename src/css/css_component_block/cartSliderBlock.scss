@@ -207,4 +207,21 @@
         grid-column-start: 3;
         z-index: 10;
     }
+    .slider-menu{
+        margin: 34px 0 92px 0;
+    }
+    .arrow-left{
+        height: 34px;
+        width: 34px;
+    }
+    .arrow-right{
+        height: 34px;
+        width: 34px;
+    }
+    .counter-first{
+        font-size: 18px;
+    }
+    .counter-max{
+        font-size: 18px;
+    }
 }

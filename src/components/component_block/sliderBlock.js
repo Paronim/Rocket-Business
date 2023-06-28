@@ -41,7 +41,7 @@ function arrowLeftEvent () {
 
 export function createElementSlider (element, data) {
 
-    const slider = document.createElement('div')
+    const slider = document.createElement('section')
     const sliderMenu = document.createElement('div')
 
     slider.className = 'slider'
