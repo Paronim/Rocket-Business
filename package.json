@@ -2,10 +2,10 @@
   "name": "Rocket Business",
   "version": "1.0.0",
   "repository": {
-    "url": "git+https://github.com/Paronim/Rocket-Business.git"
+    "url": "https://github.com/Paronim/Rocket-Business/tree/production"
   },
   "type": "module",
-  "homepage": "https://paronim.github.io/Rocket-Business",
+  "homepage": "https://paronim.github.io/Rocket-Business/",
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
