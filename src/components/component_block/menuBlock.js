@@ -5,7 +5,7 @@ let stateMenu = true
 const menuButtonOpen = "<div class='label-menu-block'></div>" + 
                         "<div class='label-menu-block'></div>" + 
                         "<div class='label-menu-block'></div>"
-const menuButtonClose = '<img src="/public/assets/icons/Close.svg"/>'
+const menuButtonClose = '<img src="/public/assets/Close.svg"/>'
 import {createElementButton} from './buttonBlock.js'
 
 
@@ -47,3 +47,5 @@ export function createMenuButton(el) {
         }   
     })
 } 
+
+export default createElementButton

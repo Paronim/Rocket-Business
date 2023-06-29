@@ -12,3 +12,5 @@ export function createElementList(element, className=``) {
                 
     element.append(list)
 }
+
+export default createElementList

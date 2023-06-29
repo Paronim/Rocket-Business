@@ -443,19 +443,19 @@ header {
 }
 
 .arrow-left {
-  background-image: url("/public/assets/icons/left-arrow.svg");
+  background-image: url("./public/assets/left-arrow.svg");
   height: 34px;
   width: 34px;
   cursor: pointer;
 }
 
 .arrow-left:active {
-  background-image: url("/public/assets/icons/left-arrow-hover.svg");
+  background-image: url("./public/assets/left-arrow-hover.svg");
   transform: rotate(180deg);
 }
 
 .arrow-right {
-  background-image: url("/public/assets/icons/left-arrow.svg");
+  background-image: url("./public/assets/left-arrow.svg");
   height: 34px;
   width: 34px;
   cursor: pointer;
@@ -463,7 +463,7 @@ header {
 }
 
 .arrow-right:active {
-  background-image: url("/public/assets/icons/left-arrow-hover.svg");
+  background-image: url("./public/assets/left-arrow-hover.svg");
   transform: rotate(360deg);
 }
 

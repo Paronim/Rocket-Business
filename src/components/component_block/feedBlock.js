@@ -38,3 +38,4 @@ export function createElementFeed (element, data) {
         }
 }
  
+export default createElementFeed
