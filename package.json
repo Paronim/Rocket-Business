@@ -1,5 +1,6 @@
 {
   "type": "module",
+  "homepage": "https://paronim.github.io/Rocket-Business",
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
