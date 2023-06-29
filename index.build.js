@@ -686,7 +686,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createFooter: () => (/* binding */ createFooter)\n/* harmony export */ });\n/* harmony import */ var _component_block_listBlock_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component_block/listBlock.js */ \"./src/components/component_block/listBlock.js\");\n\nfunction createFooter() {\n  var footer = document.createElement('footer');\n  document.body.after(footer);\n  var logo = document.createElement('img');\n  var socialNet = document.createElement('div');\n  var wrapperImg = document.createElement('div');\n  footer.className = 'footer';\n  logo.className = 'logo-footer';\n  wrapperImg.className = 'wrapper-logo';\n  socialNet.className = 'social-network';\n  logo.src = '/public/assets/logo-footer.svg';\n  socialNet.innerHTML = '<a href=\"#\"><img class=\"image-footer\" src=\"./public/assets/instagram.svg\"/></a>' + '<a class=\"image-footer-a\" href=\"#\"><img class=\"image-footer\" src=\"./public/assets/whatsapp.svg\"/></a>' + '<a class=\"image-footer-a\" href=\"#\"><img class=\"image-footer\" src=\"./public/assets/telegram.png\"/></a>';\n  footer.append(wrapperImg);\n  wrapperImg.append(logo);\n  footer.append(socialNet);\n  (0,_component_block_listBlock_js__WEBPACK_IMPORTED_MODULE_0__.createElementList)(footer, 'footer');\n}\n\n//# sourceURL=webpack://Rocket_Business/./src/components/footer.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createFooter: () => (/* binding */ createFooter)\n/* harmony export */ });\n/* harmony import */ var _component_block_listBlock_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component_block/listBlock.js */ \"./src/components/component_block/listBlock.js\");\n\nfunction createFooter() {\n  var footer = document.createElement('footer');\n  document.body.after(footer);\n  var logo = document.createElement('img');\n  var socialNet = document.createElement('div');\n  var wrapperImg = document.createElement('div');\n  footer.className = 'footer';\n  logo.className = 'logo-footer';\n  wrapperImg.className = 'wrapper-logo';\n  socialNet.className = 'social-network';\n  logo.src = '/public/assets/logo-footer.svg';\n  socialNet.innerHTML = '<a href=\"#\"><img class=\"image-footer\" src=\"../public/assets/instagram.svg\"/></a>' + '<a class=\"image-footer-a\" href=\"#\"><img class=\"image-footer\" src=\"../public/assets/whatsapp.svg\"/></a>' + '<a class=\"image-footer-a\" href=\"#\"><img class=\"image-footer\" src=\"../public/assets/telegram.png\"/></a>';\n  footer.append(wrapperImg);\n  wrapperImg.append(logo);\n  footer.append(socialNet);\n  (0,_component_block_listBlock_js__WEBPACK_IMPORTED_MODULE_0__.createElementList)(footer, 'footer');\n}\n\n//# sourceURL=webpack://Rocket_Business/./src/components/footer.js?");
 
 /***/ }),
 
@@ -845,7 +845,7 @@ eval("module.exports = JSON.parse('{\"name\":\"feed\",\"type\":\"module\",\"cont
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("6709b5ae828be1a88033")
+/******/ 		__webpack_require__.h = () => ("321389c57e06ca542eac")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
